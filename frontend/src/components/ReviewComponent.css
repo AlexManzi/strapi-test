@@ -1,0 +1,25 @@
+#wholecard {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(254,247,218, .4);
+    box-shadow: 10px 5px 5px rgb(250, 150, 43);
+    font-family: 'Cabin', sans-serif;
+}
+
+#images {
+    height: 150px;
+    width: auto;
+    margin-top: -90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#authur {
+    margin-top: -60px;
+}
+
+#body {
+    margin-top: -60px;
+}
