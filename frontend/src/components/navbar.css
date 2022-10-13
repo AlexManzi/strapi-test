@@ -1,0 +1,246 @@
+#wholebar {
+    display: grid;
+    grid-template-columns: auto auto;
+    transition: 0.1s;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(142,209,186);
+    z-index: 2;
+    font-family: 'Cabin', sans-serif;
+}
+
+li {
+    color: white;
+}
+
+#heading1 {
+    color: white;
+    z-index: 3;
+    position:fixed;
+    padding-left: 50px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.right-menu {
+    position:relative;
+    display: inline-block;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+#smallMenu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 8vw;
+}
+
+.smallItem {
+    height: 30px;
+    width: auto;
+    padding: 15px;
+    margin-left: -20px;
+}
+
+.dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 85%;
+    left:-20px;
+    width: 100%;
+    padding-left: 15%;
+    transform: translateY(0);
+    z-index: -1;
+    transition: all 0.3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    text-align: end;
+    padding-right: 15%;
+
+}
+
+.items:focus .dropdown-menu,
+.items:focus-within .dropdown-menu,
+.items:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0);
+    transition-delay: 0s, 0s, 0.3s;
+    background-color: rgb(142,209,186);
+}
+
+
+#socials {
+    padding-bottom: .0001px;
+    background-color: rgb(142,209,186);
+    z-index: 1;
+    position: relative;
+}
+
+.socialItems {
+    text-decoration: none;
+    color: rgb(65,122,131);
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.socialItems:hover {
+    color: aquamarine;
+}
+
+.navroute {
+    color: white;
+}
+
+.list {
+    list-style-type: none;
+    background-color: rgb(142,209,186);
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.items {
+    margin-right: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    margin-top: -11px
+}
+
+.items:hover {
+    color: aquamarine;
+}
+
+#nav1:hover {
+    color: aquamarine;
+}
+
+#nav2:hover {
+    color: aquamarine;
+}
+
+#nav3:hover{
+    color: aquamarine;
+}
+
+#nav4:hover{
+    color: aquamarine;
+}
+
+.btn {
+    display: none; 
+    position: absolute;
+    height: 20px;
+    width: auto;
+    right: 10px;
+    top: 7px;
+    padding: 12px;
+    color: black;
+    font-size: 18px;
+}
+
+#logo {
+    width: 130px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 5vw;
+    z-index: 3;
+    position:fixed;
+}
+
+#youtube {
+    height: 50px;
+    width: auto;
+    padding-top: 8px;
+}
+
+#insta {
+    height: 50px;
+    width: auto;
+    padding-top: 8px;
+    margin-right: -1vh;
+}
+
+#twitter {
+    height: 50px;
+    width: auto;
+    padding-top: 8px;
+    margin-left: -10px;
+}
+
+#spotify {
+    height: 55px;
+    width: auto;
+    padding-top: 7px;
+    margin-left: -2.5vh;
+}
+
+@media screen and (max-width: 500px) {
+    .list {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        height: auto;
+    }
+    .items:nth-child(1) {
+        border-top: 1px solid white;
+        margin-top: 35px;
+    }
+    .items {
+        width: 100%;
+        text-align: center;
+        margin-left: -15px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .btn {
+        display: block;
+    }
+    #logo {
+        width: 100px;
+        height: auto;
+        padding-top: 10px;
+        padding-left: 5vw;
+        z-index: 3;
+        position:fixed;
+    }
+    #youtube {
+        height: 35px;
+        width: auto;
+        padding-top: 5px;
+    }
+    
+    #twitter {
+        height: 35px;
+        width: auto;
+        padding-top: 10px;
+        margin-left: 0px;
+    }
+    
+    #spotify {
+        height: 35px;
+        width: auto;
+        padding-top: 10px;
+        margin-left: 0px;
+        padding-bottom: 15px;
+    }
+
+    #socials {
+        margin-top: -15px;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 395px) { 
+    .smallItem {
+        margin-left: -15px;
+    }
+}

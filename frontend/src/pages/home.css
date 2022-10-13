@@ -1,0 +1,42 @@
+#wholepage {
+    display: grid;
+    background-image: url('https://3vffxhfy5ah3clou11dg4jhd-wpengine.netdna-ssl.com/wp-content/uploads/Chariot-Green-Energy-blog-min-scaled.jpeg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 280vh;
+}
+
+#centerpage {
+    padding-top: 30vh;
+    text-align: center;
+    height: 20vh;
+}
+
+#heading {
+    font-size: 5rem;
+    color: rgb(254,247,218);
+    text-shadow: 2px 3px black;
+}
+
+#subtext {
+    font-size: .9rem;
+    margin-top: -30px;
+    color: white;
+    background-color:  rgb(14,114,237, .8);
+    margin-left: 33vw;
+    margin-right: 33vw;
+    border-radius: 25px;
+    height: 35px;
+    padding-top: 2vh;
+    box-shadow: 1px 2px 5px rgb(255,247,218);
+    font-weight: bold;
+}
+
+#map {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    justify-content: center;
+    column-gap: 2vw;
+    row-gap: 4vh;
+    padding-bottom: 20px;
+}
