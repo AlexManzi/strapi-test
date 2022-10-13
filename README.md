@@ -1,7 +1,9 @@
 Works with NPM Version 16.13.0 
+
 run npm install
 
 start with npm run develop
+
 sign into Strapi
 
 in a new window, cd into frontend and run npm start
