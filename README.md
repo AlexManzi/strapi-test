@@ -1,3 +1,13 @@
+Works with NPM Version 16.13.0 
+
+run npm install
+
+start with npm run develop
+
+sign into Strapi
+
+in a new window, cd into frontend and run npm start
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
