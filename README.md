@@ -1,4 +1,10 @@
-Works with NPM Version 16.13.0 
+Versions
+
+Node Version 16.13.0 and earlier
+
+--
+
+How to Run
 
 run npm install
 
@@ -7,6 +13,8 @@ start with npm run develop
 sign into Strapi
 
 in a new window, cd into frontend and run npm start
+
+--
 
 # 🚀 Getting started with Strapi
 
